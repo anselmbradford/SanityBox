@@ -115,9 +115,9 @@ To screenshot responsive sizes, add additional `screenWidth` settings.
 ## Known issues
 
 ### I add more pages but everything is the homepage!
-Yup, this is definitely pre-alpha, so I figured out how to smoothly
-get Webdriverio to visit multiple pages and screenshot them.
-The visiting happens, but the screenshots appear to happen before the
+Yup, this is definitely pre-alpha.
+Webdriverio can visit multiple pages,
+but the screenshots appear to happen before the
 page has navigated away from the homepage.
 At the moment this POF is only working on one page at a time
 (but multiple responsive sizes at a time work).
