@@ -97,11 +97,14 @@ guest:~$ selenium_stop
 ```
 
 ### Running regression tests
-  1. In a new tmux pane, change to the bin directory with `cd bin`.
-  2. Run `nodejs testdriver.js`. This creates new baseline images
+  1. Ensure you have the project you want to test running on the host machine,
+     and that the port you want to check matches that in
+     the `baseUrl`in `bin/targets.yml`.
+  2. In a new tmux pane, change to the bin directory with `cd bin`.
+  3. Run `nodejs testdriver.js`. This creates new baseline images
      in the `bin` directory if none exist already, or regression images
      if there is a difference from the baseline.
-  3. To regenerate the baseline images,
+  4. To regenerate the baseline images,
      throw out the `bin/*_regression_tests` directory.
 
 ### Changing test parameters
@@ -110,6 +113,12 @@ where you can set the URL to visit,
 the element to screenshot (the `body` gets the whole page),
 and the height and width of the screenshot.
 To screenshot responsive sizes, add additional `screenWidth` settings.
+
+ - `project` = A name for the project,
+   which gets prefixed on the `bin/*_regression_tests` directory.
+ - `baseurl` = The URL of the project running on the host computer.
+ - `url` = The URL for the page (appended to the `baseUrl` when making requests).
+ - `data` = An object with any of the options from the [WebdriverCSS settings](https://github.com/webdriverio/webdrivercss#usage).
 
 ### Stoping the VM
 Stop the VM by entering the following in the VM directory on the host computer:
