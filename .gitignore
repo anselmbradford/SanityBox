@@ -1,0 +1,5 @@
+# Ignore Vagrant VM files.
+.vagrant
+
+# Ignore generated regression image directories
+bin/*_regression_tests

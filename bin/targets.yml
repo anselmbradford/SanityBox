@@ -1,0 +1,13 @@
+project: 'cfgov-refresh'
+baseurl: 'http://10.0.2.2:7001'
+pages:
+  -
+    url: '/'
+    data:
+      name: 'homepage'
+      elem: 'body'
+      height: '100%'
+      screenWidth:
+        #- 320
+        #- 640
+        - 960
