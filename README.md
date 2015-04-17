@@ -37,7 +37,7 @@ ala [Sauce Labs](http://saucelabs.com).
   - [Vagrant](http://vagrantup.com)
 
 ## Installation
-    Follow the instructions in the [INSTALL](INSTALL.md) document.
+Follow the instructions in the [INSTALL](INSTALL.md) document.
 
 ## Configuration
 
