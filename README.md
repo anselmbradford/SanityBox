@@ -69,15 +69,13 @@ The console will now be controlling the VM.
 
 ### Running separate console panes
 
-#### Starting tmux
+#### Creating and swapping panes with tmux
 In order to control the different processes needed for the project use
 tmux to swap between panes in the terminal. Start tmux with:
 
 ```bash
 guest:~$ tmux
-```
 
-#### Creating and swapping panes
  1. Press the `ctrl`+`b` keys and enter `"` to split the pane vertically.
  2. Press the `ctrl`+`b` keys and enter `o` to swap between the two panes.
 
