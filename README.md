@@ -111,6 +111,13 @@ the element to screenshot (the `body` gets the whole page),
 and the height and width of the screenshot.
 To screenshot responsive sizes, add additional `screenWidth` settings.
 
+### Stoping the VM
+Stop the VM by entering the following in the VM directory on the host computer:
+
+```bash
+host $ vagrant halt
+```
+
 ## Known issues
 
 ### I add more pages but everything is the homepage!
