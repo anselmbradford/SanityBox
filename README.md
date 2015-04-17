@@ -75,6 +75,7 @@ tmux to swap between panes in the terminal. Start tmux with:
 
 ```bash
 guest:~$ tmux
+```
 
  1. Press the `ctrl`+`b` keys and enter `"` to split the pane vertically.
  2. Press the `ctrl`+`b` keys and enter `o` to swap between the two panes.
