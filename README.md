@@ -142,7 +142,7 @@ Check that the server you want to test is actually running on the host.
 
 ### There are all kinds of connection refused errors
 Sometimes the PhantomJS sessions seem to get locked up.
-Manually kill them by looking up the PID with `ps aux | grep 'phantomjs'
+Manually kill them by looking up the PID with `ps aux | grep 'phantomjs'`
 and kill them with `kill <PID>`,
 where `<PID>` is the ID of the one you want to kill.
 Restart the Selenium Server with `selenium_start`.
