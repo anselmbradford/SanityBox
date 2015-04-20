@@ -134,7 +134,7 @@ Yup, this is definitely pre-alpha.
 Webdriverio can visit multiple pages,
 but the screenshots appear to happen before the
 page has navigated away from the homepage.
-At the moment this POF is only working on one page at a time
+At the moment this proof-of-concept is only working on one page at a time
 (but multiple responsive sizes at a time work).
 
 ### The generated images are blank!
